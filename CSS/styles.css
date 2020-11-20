@@ -1,0 +1,93 @@
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul{
+    border: 0px solid blue;
+    margin: 0 20px;
+    width: 100%;
+}
+
+.spinner{
+    display: none;
+}
+.bd-highlight{
+    border: 0px solid blue;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#description{
+    font-size: 10px;
+    text-align: justify;
+}
+
+#marquee{
+    height: 40px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+}
+
+#company_prices{
+    list-style: none;
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0 3px;
+    animation: translate 140s linear infinite;
+}
+#li_marquee{
+    display : flex;
+    justify-content :center;
+    align-items: center;
+    flex-shrink : 0;
+    white-space : nowrap;
+    margin-right:15px;
+}
+
+.result-search{
+    height: 50px;
+}
+
+.mini-div{
+    height: 35px;
+}
+
+.company-image{
+    flex-basis : 10%;
+    margin-left: 2px;
+    margin-right: 20px;
+}
+
+.company-name{
+    flex-basis : 75%;
+}
+
+.company-change{
+    flex-basis : 15%;
+}
+.change-percentage{
+    margin: auto;
+    margin-right: 5px;
+}
+.notActive{
+    display: none;
+}
+mark{
+    background-color: salmon;
+    border-radius: 4px;
+    opacity: 0.89;
+    margin: 0;
+    padding: 0;
+}
+@keyframes translate {
+    0% {transform: translateX(90rem);}
+    
+    100% {transform: translateX(-10000px);}
+}
